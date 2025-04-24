@@ -1,0 +1,1520 @@
+[
+    {
+        "id_checador": 1,
+        "user_id": "2",
+        "name": "ANA ROSA FLORES DE",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 11, fid:0, size:1036 v:1 t:b'4d4f535332310000...3a05144561067b00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "1",
+        "name": "IVAN RAYMUNDO GUZMAN TA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 12, fid:0, size: 746 v:1 t:b'4ba9535332310000...06faf911fcc0c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "4",
+        "name": "DANIEL APARICIO GONZALE",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 13, fid:0, size: 912 v:1 t:b'4ad3535332310000...51071082a7004adc']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "5",
+        "name": "JOAQUIN SALAZAR VEGA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 14, fid:0, size: 944 v:1 t:b'4af3535332310000...0510b2617e4f5c00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "6",
+        "name": "LUIS MANUEL RODRIGUEZ G",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 15, fid:0, size: 978 v:1 t:b'4a91535332310000...202cfffffefffdc0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "8",
+        "name": "ARNOLDO RODRIGUEZ LOMEL",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 17, fid:0, size: 692 v:1 t:b'4bf7535332310000...42380410426078e5']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "9",
+        "name": "DANIELA MONSERRAT GARCI",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  1, fid:0, size: 982 v:1 t:b'4a95535332310000...ff03101a8630c0d6']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "10",
+        "name": "MIRIAM LILIANA JIMENEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  2, fid:0, size: 544 v:1 t:b'4b63535332310000...ffc185feffdec100']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "3",
+        "name": "Joaquin",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 10, fid:0, size: 758 v:1 t:b'4bb5535332310000...c7f511b44d16c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "11",
+        "name": "EDUARDO PALACIOS CASASO",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  3, fid:0, size:1000 v:1 t:b'4aab535332310000...fe7805108f60bf4c']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "63",
+        "name": "Nunez Covarrubias Jorge",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 63, fid:0, size: 716 v:1 t:b'4b8f535332310000...322a01dc5e63fdff']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "64",
+        "name": "García Hernández Jeye",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 64, fid:0, size: 938 v:1 t:b'4ae9535332310000...c168949dc5c29bc3']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "65",
+        "name": "Anguiano Garcia Xocoyot",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 65, fid:0, size: 794 v:1 t:b'4a59535332310000...fe03d560611afe00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "69",
+        "name": "MAZAHUA HUERTA JUAN OMA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 69, fid:0, size: 702 v:1 t:b'4bfd535332310000...7ec30410645c8132']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "16",
+        "name": "TERESA DE JESUS ROMERO",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  8, fid:0, size: 890 v:1 t:b'4a39535332310000...6105102c5a06a800']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "66",
+        "name": "Garcia Vargas Victor Ma",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 66, fid:0, size: 832 v:1 t:b'4a03535332310000...c003105af640c740']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "70",
+        "name": "LUJAN FLORES GUSTAVO",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 70, fid:0, size: 736 v:1 t:b'4ba3535332310000...05c29923a3809800']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "19",
+        "name": "EDUWIGES ISORDIA MORENO",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 19, fid:0, size: 978 v:1 t:b'4a91535332310000...492beefe31c2c076']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "20",
+        "name": "ARELI ESTEFANIA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 20, fid:0, size: 676 v:1 t:b'4be7535332310000...c31050c6026dff00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "21",
+        "name": "ANA ILSE GONZALEZ CASTI",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 21, fid:0, size:1018 v:1 t:b'4ab9535332310000...05eaee6280c05900']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "22",
+        "name": "JOEL NEGRETE HUESO",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 22, fid:0, size: 946 v:1 t:b'4af1535332310000...05c0fc4dfec1c0c1']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "24",
+        "name": "Carranza Guzman Karla M",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 24, fid:0, size:1154 v:1 t:b'4dc1535332310000...7004d58766ff5300']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "25",
+        "name": "LUIS ALBERTO MARTINEZ S",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 25, fid:0, size:1030 v:1 t:b'4d45535332310000...889105107a62c558']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "26",
+        "name": "EVA CONCEPCION AYALA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 26, fid:0, size: 840 v:1 t:b'4a0b535332310000...06102a62036b8a00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "71",
+        "name": "GARCIA GARCIA MONICA DE",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 71, fid:0, size: 972 v:1 t:b'4a8f535332310000...10296006b5455acc']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "28",
+        "name": "JOSE ANTONIO DIAZ AGUIL",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 28, fid:0, size:1102 v:1 t:b'4d0d535332310000...c1031071a703c64e']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "29",
+        "name": "YAGAIRA RIVAS MARQUEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 29, fid:0, size: 930 v:1 t:b'4ae1535332310000...09107b63fd4aa000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "30",
+        "name": "MELCHOR RODRIGUEZ RUIZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 30, fid:0, size: 746 v:1 t:b'4ba9535332310000...98e4fd15fdfafefe']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "72",
+        "name": "CARDENAS ALVARADO RODRI",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 72, fid:0, size: 886 v:1 t:b'4a35535332310000...53c300669b5617c2']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "73",
+        "name": "Alvaro Gomez Rodriguez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 73, fid:0, size: 822 v:1 t:b'4a75535332310000...f9fafdc005c0c336']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "74",
+        "name": "Jose Francisco Rodrigue",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 74, fid:0, size: 978 v:1 t:b'4a91535332310000...13b527207745c200']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "76",
+        "name": "Norma Galilea Palacios",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 76, fid:0, size:1002 v:1 t:b'4aa9535332310000...7d54031062627e15']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "36",
+        "name": "ESMERALDA HERNANDEZ PER",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 36, fid:0, size: 996 v:1 t:b'4aa7535332310000...c110718601c0c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "77",
+        "name": "Rodríguez Pacas Maria",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 77, fid:0, size: 854 v:1 t:b'4a15535332310000...c1ff3bc1fd97feff']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "78",
+        "name": "Delgado Tejeda Georgina",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 78, fid:0, size: 838 v:1 t:b'4a05535332310000...c483c29447c04600']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "79",
+        "name": "GRISELDA ARÉVALO RODRI",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 79, fid:0, size: 862 v:1 t:b'4a1d535332310000...fdc3fdc105ff5a5e']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid: 79, fid:1, size: 904 v:1 t:b'4acb535332310000...c0c005fffc48c1ff']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "79",
+        "name": "GRISELDA ARÉVALO RODRI",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 79, fid:0, size: 862 v:1 t:b'4a1d535332310000...fdc3fdc105ff5a5e']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid: 79, fid:1, size: 904 v:1 t:b'4acb535332310000...c0c005fffc48c1ff']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "80",
+        "name": "Brenda Guadalupe Herná",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 80, fid:0, size: 816 v:1 t:b'4a73535332310000...055807209b62fd3e']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "822",
+        "name": "CARLOS CESAR ALANEZ CAR",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:822, fid:0, size: 748 v:1 t:b'4baf535332310000...6d2efff7f2fcfb3c']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "42",
+        "name": "SERGIO AGUSTIN FREGOSO G",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 42, fid:0, size:1068 v:1 t:b'4d6f535332310000...c4ee0210785e8cc5']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "43",
+        "name": "MIRIAM ROSSANA MARTINEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 43, fid:0, size: 764 v:1 t:b'4bbf535332310000...8004d52439c89100']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "44",
+        "name": "ELIZABETH PACAS ESPINOS",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 44, fid:0, size:1116 v:1 t:b'f00f0003c0000000...c310db3e81c05600']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid: 44, fid:1, size: 712 v:1 t:b'4b8b535332310000...1c3e03100a422b09']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "44",
+        "name": "ELIZABETH PACAS ESPINOS",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 44, fid:0, size:1116 v:1 t:b'f00f0003c0000000...c310db3e81c05600']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid: 44, fid:1, size: 712 v:1 t:b'4b8b535332310000...1c3e03100a422b09']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "45",
+        "name": "ELIZABETH GONZALEZ NARAN",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 45, fid:0, size: 822 v:1 t:b'4a75535332310000...cac9c3c104c2c2f6']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "47",
+        "name": "Erick Javier Cardenas",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 46, fid:0, size: 728 v:1 t:b'4b9b535332310000...c14ec36ac2c3ff8b']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "48",
+        "name": "JUAN MARTIN EUGENIO",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 47, fid:0, size: 962 v:1 t:b'4a81535332310000...fefdfcfcebfefee7']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "7",
+        "name": "DALIA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  4, fid:0, size: 838 v:1 t:b'4a05535332310000...c38302102c4650c1']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "50",
+        "name": "Jimenez Ramos German",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 50, fid:0, size: 816 v:1 t:b'4a73535332310000...8afbeccafefe5300']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "824",
+        "name": "ANA CECILIA GARCIA GUZM",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:824, fid:0, size: 802 v:1 t:b'4a61535332310000...c2c6c7ca05c49922']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "58",
+        "name": "MILAGROS YESSICA ORTIZ Z",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 58, fid:0, size: 996 v:1 t:b'4aa7535332310000...430413966300c0c0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "59",
+        "name": "Omar Alonso De Leon Mor",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 59, fid:0, size: 708 v:1 t:b'4b87535332310000...11600510ff617d3d']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "62",
+        "name": "Banda Jimenez Sandra El",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 62, fid:0, size: 600 v:1 t:b'4b1b535332310000...c03503106162c5ff']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "83",
+        "name": "IMELDA VAZQUEZ GONZALEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 83, fid:0, size: 732 v:1 t:b'4b9f535332310000...033803104c60041e']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "820",
+        "name": "JUAN CARLOS RODRIGUEZ R",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:820, fid:0, size: 990 v:1 t:b'4a9d535332310000...0410bf3e22c25900']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "821",
+        "name": "CARLOS MERCADO MENDEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:821, fid:0, size:1076 v:1 t:b'4d77535332310000...c31073557c55c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "823",
+        "name": "karla carranza",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:823, fid:0, size:1070 v:1 t:b'4d6d535332310000...c2fd0510ca61b855']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "826",
+        "name": "DANIEL ISAAC VALDEZ CEN",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:826, fid:0, size: 808 v:1 t:b'4a6b535332310000...c7eec5c6cac4c4b4']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "828",
+        "name": "De la Torre Nava Rubén",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:828, fid:0, size: 794 v:1 t:b'4a59535332310000...df5c5b67a9e47e00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "829",
+        "name": "Kenia Fernanda Godinez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:829, fid:0, size: 920 v:1 t:b'4adb535332310000...11bb6300c0c18700']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "830",
+        "name": "Jiovanni Ureña Lopez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:830, fid:0, size: 866 v:1 t:b'4a21535332310000...3cf9fd9cc1c05b00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "831",
+        "name": "ROBERTO GOMEZ DURAN",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:831, fid:0, size: 914 v:1 t:b'4ad1535332310000...fefd3cf8f96dff42']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "834",
+        "name": "Alonso Gutiérrez Ernes",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:834, fid:0, size: 930 v:1 t:b'4ae1535332310000...04107b6203c2fa00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "835",
+        "name": "Sergio Agustin Fregoso",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:835, fid:0, size: 922 v:1 t:b'4ad9535332310000...c30310b3f930c29a']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "836",
+        "name": "Cynthia Guadalupe Duran",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:836, fid:0, size:1068 v:1 t:b'4d6f535332310000...c62911cf6280c04f']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:836, fid:1, size: 938 v:1 t:b'4ae9535332310000...fdf937daa4c1ff94']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "836",
+        "name": "Cynthia Guadalupe Duran",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:836, fid:0, size:1068 v:1 t:b'4d6f535332310000...c62911cf6280c04f']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:836, fid:1, size: 938 v:1 t:b'4ae9535332310000...fdf937daa4c1ff94']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "837",
+        "name": "Celia Nydia Sánchez Ro",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:837, fid:0, size: 746 v:1 t:b'4ba9535332310000...01c5c228c176c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "838",
+        "name": "José Michael Gutiérre",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:838, fid:0, size: 668 v:1 t:b'4bdf535332310000...489f11b463fdff00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "839",
+        "name": "Coreisy Cabrera Rodrigu",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:839, fid:0, size: 872 v:1 t:b'4a2b535332310000...c0061085a600c22a']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:839, fid:1, size:1008 v:1 t:b'4ab3535332310000...49f5114e6300c23a']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "839",
+        "name": "Coreisy Cabrera Rodrigu",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:839, fid:0, size: 872 v:1 t:b'4a2b535332310000...c0061085a600c22a']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:839, fid:1, size:1008 v:1 t:b'4ab3535332310000...49f5114e6300c23a']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "840",
+        "name": "Erika Georgina Luna Guz",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:840, fid:0, size: 916 v:1 t:b'4ad7535332310000...c210e5f681c142c0']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:840, fid:1, size:1208 v:1 t:b'4dfb535332310000...6dc80210dc2c49fe']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "840",
+        "name": "Erika Georgina Luna Guz",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:840, fid:0, size: 916 v:1 t:b'4ad7535332310000...c210e5f681c142c0']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:840, fid:1, size:1208 v:1 t:b'4dfb535332310000...6dc80210dc2c49fe']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "842",
+        "name": "Miriam Jazmín Vélez O",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:842, fid:0, size: 994 v:1 t:b'4aa1535332310000...567bc6108d8101c1']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:842, fid:1, size: 860 v:1 t:b'4a1f535332310000...6cff50c1c049ef00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "842",
+        "name": "Miriam Jazmín Vélez O",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:842, fid:0, size: 994 v:1 t:b'4aa1535332310000...567bc6108d8101c1']"
+            },
+            {
+                "finger_id": 1,
+                "template": "<Finger> [uid:842, fid:1, size: 860 v:1 t:b'4a1f535332310000...6cff50c1c049ef00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "1223",
+        "name": "Jesus",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  6, fid:0, size: 886 v:1 t:b'4a35535332310000...bc04134c6300c0c0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 1,
+        "user_id": "1224",
+        "name": "Allison",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:1224, fid:0, size: 692 v:1 t:b'4bf7535332310000...c18705100463ffe1']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "1",
+        "name": "Joaquin",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  1, fid:0, size:1492 v:1 t:b'4c97535332310000...0510a05cd5c62bd4']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "2",
+        "name": "ALEJANDRA HERMINIA GUER",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  2, fid:0, size:1074 v:1 t:b'4d71535332310000...c403d59c5848c300']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "3",
+        "name": "ANDREA ANAYA CAMPOS",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  3, fid:0, size:1146 v:1 t:b'4d39535332310000...5165a085c4c8b700']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "4",
+        "name": "CHRISTIAN FABIAN MARTIN",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  4, fid:0, size:1062 v:1 t:b'4d65535332310000...c7c4c4c23ac13326']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "5",
+        "name": "GERARDO AMEZCUA VARGAS",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  5, fid:0, size: 838 v:1 t:b'4a05535332310000...c186c0c1c2c0c2c2']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "6",
+        "name": "MARIA LETICIA TAVAREZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  6, fid:0, size:1240 v:1 t:b'4d9b535332310000...82ff0310ed6238c0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "7",
+        "name": "ANA LILIA LOPEZ ROBLES",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  7, fid:0, size:1318 v:1 t:b'4c65535332310000...0336b45c7dc2ff52']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "8",
+        "name": "ENA MARIA DEL CARMEN",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid:  8, fid:0, size: 876 v:1 t:b'4a2f535332310000...04c0c3a8c7cac181']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "27",
+        "name": "Alvaro Gomez Rodriguez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 27, fid:0, size:1022 v:1 t:b'4abd535332310000...c6c6c4c001fcfcce']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "28",
+        "name": "ANAI ELIZABETH ARROYO L",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 28, fid:0, size: 890 v:1 t:b'4a39535332310000...1b7e03107758c9fe']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "12",
+        "name": "JOSE LUIS TORRES LOPEZ",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 12, fid:0, size: 950 v:1 t:b'4af5535332310000...c1c0c1c0c2c03a00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "13",
+        "name": "CARLOS CESAR ALANEZ CAR",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 13, fid:0, size:1072 v:1 t:b'4d73535332310000...644e0310065363f0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "14",
+        "name": "Eduwiges",
+        "privilege": 14,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 14, fid:0, size:1304 v:1 t:b'4c5b535332310000...fe04d590570f8900']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "31",
+        "name": "TORRES GONZALEZ L",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 31, fid:0, size: 970 v:1 t:b'4a89535332310000...0410b9530fc19e00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "17",
+        "name": "BEATRIZ AMANDA MENDEZ E",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 17, fid:0, size:1224 v:1 t:b'4d8b535332310000...c0fe39fdf9be3d00']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "18",
+        "name": "Mara Sofia Rosales Barb",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 18, fid:0, size:1162 v:1 t:b'4dc9535332310000...3405105da7f0ffbc']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "24",
+        "name": "Virgen Mejia Irene",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 24, fid:0, size: 796 v:1 t:b'4a5f535332310000...d54464ec4afe4fc0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "25",
+        "name": "Luis Enrique Ramírez F",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 25, fid:0, size:1002 v:1 t:b'4aa9535332310000...fd500310175e0a28']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "26",
+        "name": "PARRA RODRIGUEZ LUIS FE",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 26, fid:0, size:1170 v:1 t:b'4dd1535332310000...c3c2c6c7c5c60479']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "35",
+        "name": "RIVERA RUBIO NORMA NOEM",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 35, fid:0, size: 910 v:1 t:b'4acd535332310000...acc3c0c2c4ca7700']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "37",
+        "name": "BLANCA ELIZABETH TORRES",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 37, fid:0, size: 718 v:1 t:b'4b8d535332310000...0bdef6648c7efea0']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "38",
+        "name": "JOSE GABRIEL CORTES MUR",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 38, fid:0, size:1254 v:1 t:b'4da5535332310000...05101f4163263000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "39",
+        "name": "ELVIA OLIVIA ZEPEDA PE",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 39, fid:0, size:1050 v:1 t:b'4d59535332310000...c10310734b2b0400']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "40",
+        "name": "MARIA GUADALUPE GUEVARA",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 40, fid:0, size:1208 v:1 t:b'4dfb535332310000...14405589c552c000']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "45",
+        "name": "Jocelyn Esperanza Mora",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 45, fid:0, size: 850 v:1 t:b'4a11535332310000...0410bc6486c05100']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "46",
+        "name": "Raul Alejandro Perez Ch",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 46, fid:0, size:1174 v:1 t:b'4dd5535332310000...c4c0045efb69c189']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "47",
+        "name": "Maria del Carmen Prado",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 47, fid:0, size:1278 v:1 t:b'4dbd535332310000...189702109d5020c2']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "48",
+        "name": "Leticia Victoria Lopez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 48, fid:0, size:1052 v:1 t:b'4d5f535332310000...1cc204107e4f1e60']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "51",
+        "name": "Celia Guadalupe Chavez",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 51, fid:0, size: 852 v:1 t:b'4a17535332310000...fcfd24ff055dc31a']"
+            }
+        ]
+    },
+    {
+        "id_checador": 2,
+        "user_id": "52",
+        "name": "Alejandra Medina Santil",
+        "privilege": 0,
+        "password": "",
+        "group_id": "",
+        "templates": [
+            {
+                "finger_id": 0,
+                "template": "<Finger> [uid: 52, fid:0, size:1164 v:1 t:b'4dcf535332310000...06106163874c7200']"
+            }
+        ]
+    }
+]
