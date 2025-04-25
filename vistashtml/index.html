@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio de Sesión</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="login-box">
-      <div class="icon-container">
-        <div class="icon-circle">
-          <img src="lock-icon.svg" alt="Ícono de candado" class="lock-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Panel Izquierdo -->
+      <div class="left-panel">
+        <div class="form-box">
+          <img src="src/img/logo_financiera.png" alt="Logo" class="logo" />
+          <h1>Iniciar sesión</h1>
+          <p>Accede a tu cuenta</p>
+          <form>
+            <input type="number" placeholder="Número de empleado" required />
+            <input type="password" placeholder="Contraseña" required />
+            <button type="submit" class="acces-button">Acceder</button>
+          </form>
         </div>
       </div>
-      <h2>Iniciar sesión</h2>
-      <form>
-        <input type="text" placeholder="Número de empleado" required>
-        <input type="password" placeholder="Contraseña" required>
-        <button type="submit">Iniciar sesión</button>
-        <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
-      </form>
+
+      <!-- Panel Derecho -->
+      <div class="right-panel">
+        <div class="carousel">
+          <img src="src/img/img1.jpg" class="carousel-image active" />
+          <img src="src/img/img2.jpg" class="carousel-image" />
+          <img src="src/img/img3.jpg" class="carousel-image" />
+        </div>
+        
+      </div>
     </div>
-  </div>
-</body>
+
+    <script>
+      const images = document.querySelectorAll(".carousel-image");
+      let current = 0;
+
+      setInterval(() => {
+        images[current].classList.remove("active");
+        current = (current + 1) % images.length;
+        images[current].classList.add("active");
+      }, 4000);
+    </script>
+  </body>
 </html>
