@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.header {
+  background-color: #a52c43;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.menu-icon, .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.calendar-container {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.month-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.month-navigation h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #a52c43;
+}
+
+.nav-button {
+  font-size: 20px;
+  background: #a52c43;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background: #e6633c;
+  transform: scale(1.1);
+}
+
+.calendar {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.calendar thead {
+  background-color: #004aad;
+  color: white;
+  font-size: 16px;
+}
+
+.calendar th, .calendar td {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  width: 14.28%;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.calendar td {
+  font-weight: bold;
+  color: #333333;
+  background: #ffffff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.calendar td:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #e6633c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 40px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catorcenas</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Enlace a Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script defer src="calendar.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="menu-icon">
+      <i class="fas fa-bars icon"></i>
+    </div>
+    <div class="user-info">
+      <i class="fas fa-user icon"></i>
+      <span>Ernesto Alonso</span>
+    </div>
+  </header>
+
+  <main class="calendar-container">
+    <div class="month-navigation">
+      <button class="nav-button" id="prev-month">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <h2><span id="month-name">Enero</span> <span class="year" id="year">2025</span></h2>
+      <button class="nav-button" id="next-month">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <table class="calendar">
+      <thead>
+        <tr>
+          <th>Lun.</th>
+          <th>Mar.</th>
+          <th>Mié.</th>
+          <th>Jue.</th>
+          <th>Vie.</th>
+          <th>Sáb.</th>
+          <th>Dom.</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <!-- Las celdas del calendario se generarán dinámicamente -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="footer">
+    © 2025 Consol Negocios SA
+  </footer>
+</body>
+</html>
