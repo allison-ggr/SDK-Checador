@@ -74,10 +74,12 @@ body {
   background-color: #004aad;
   color: white;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .calendar th, .calendar td {
   border: 1px solid #e0e0e0;
+  border-radius: 10px;
   padding: 15px;
   width: 14.28%;
   height: 30px;
@@ -87,6 +89,7 @@ body {
 
 .calendar td {
   font-weight: bold;
+  border-radius: 10px;
   color: #333333;
   background: #ffffff;
   transition: background 0.3s ease, transform 0.2s ease;
@@ -116,7 +119,7 @@ body {
   left: -350px; /* oculto inicialmente */
   width: 250px;
   height: 100%;
-  background-color: #1e1e2f;
+  background-color: #265288;
   color: white;
   padding: 20px;
   transition: left 0.3s ease;
@@ -136,6 +139,23 @@ body {
   font-size: 1.5rem;
   float: right;
   cursor: pointer;
+}
+
+.btn-cerrar {
+  margin: 270px  20px 0 20px;
+  border-radius: 100px;
+  padding: 10px 35px;
+  font-size: 1.1em;
+  border: none;
+  color: white;
+  background-color: #a82d46;
+  cursor: pointer;
+}
+
+.btn-cerrar:hover {
+  background-color: #e6633c;
+  transform: scale(1.1);
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 /* Links del menú */
