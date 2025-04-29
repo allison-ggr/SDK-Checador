@@ -13,10 +13,16 @@ db = pymysql.connect(
 cursor = db.cursor()
 
 # UID del usuario que quieres restaurar
-uid_usuario = 1228
+
+
+uid_usuarioAnterior = 15
+uid_usuarioNUevo = 1015
+nombre_usuarioNuevo = "LUIS MANUEL RODRIGUEZ G"
+
+
 
 # Buscar todas las huellas de ese usuario
-cursor.execute("SELECT finger_id, template FROM huellas WHERE user_uid = %s", (uid_usuario,))
+cursor.execute("SELECT finger_id, template FROM huellas WHERE user_uid = %s", (uid_usuarioAnterior,))
 resultados = cursor.fetchall()
 
 if resultados:
@@ -27,20 +33,20 @@ if resultados:
 
     # Crear el usuario en el reloj
     conn.set_user(
-        uid=uid_usuario,
-        name=f'MeniquePrueba2',  # Aquí puedes ponerle un nombre real si quieres
+        uid=uid_usuarioNUevo,
+        name=nombre_usuarioNuevo,  # Aquí puedes ponerle un nombre real si quieres
         privilege=const.USER_ADMIN,
         password='',
         group_id='0',
-        user_id=str(uid_usuario)
+        user_id=str(uid_usuarioNUevo)
     )
-    print(f"Usuario {uid_usuario} creado.")
+    print(f"Usuario {uid_usuarioNUevo} creado.")
 
     # Crear las huellas (puede tener varias)
     fingers = []
     for finger_id, template_data in resultados:
         finger = Finger(
-            uid=uid_usuario,
+            uid=uid_usuarioNUevo,
             fid=finger_id,
             valid=1,
             template=template_data
@@ -48,7 +54,7 @@ if resultados:
         fingers.append(finger)
 
     # Guardar todas las huellas del usuario
-    conn.save_user_template(uid_usuario, fingers)
+    conn.save_user_template(uid_usuarioNUevo, fingers)
     print("Huellas restauradas exitosamente.")
 
     # Finalizar conexión
@@ -56,7 +62,7 @@ if resultados:
     conn.disconnect()
 
 else:
-    print(f"No se encontraron huellas para el usuario {uid_usuario}")
+    print(f"No se encontraron huellas para el usuario {uid_usuarioNUevo}")
 
 # Cerrar conexión a la base
 cursor.close()
