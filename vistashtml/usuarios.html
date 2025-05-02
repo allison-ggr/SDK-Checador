@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="stylesReportes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script defer src="sidebar.js"></script>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-chubby/css/uicons-solid-chubby.css'>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-sidebar"><i class="fas fa-times"></i></button>
+        <ul>
+          <li><a href="#"><i class="fi fi-sr-house-chimney"></i> Inicio</a></li>
+          <li><a href="#"><i class="fi fi-ss-employee-man-alt"></i> Colaboradores</a></li>
+          <li><a href="#"><i class="fi fi-sr-calendar-clock"></i> Catorcenas</a></li>
+          <li><a href="#"><i class="fi fi-sr-file-medical-alt"></i> Reportes</a></li>
+          <button class="btn-cerrar"><i class="fi fi-br-exit" style="margin: 2px;"></i> Cerrar Sesión</button>
+        </ul>
+      </div>
+      <header class="header">
+        <div class="menu-icon">
+          <i class="fas fa-bars icon"></i>
+        </div>
+        <div class="user-info">
+          <i class="fas fa-user icon"></i>
+          <span>Ernesto Alonso</span>
+        </div>
+      </header>
+
+    <!-- Contenido -->
+    <div class="container">
+        <h1>Agrega un nuevo usuario</h1>
+    
+        <!-- Formulario -->
+        <form class="filter-container" action="#" method="GET">
+            <div class="filter-group">
+                <label for="numero_empleado">Id de empleado</label>
+                <input id="numero_empleado" name="numero_empleado" type="text" class="pill" style="width: 100px;" value="1234">
+            </div>
+            <div class="filter-group">
+                <label for="nombre">Nombre del colaborador</label>
+                <input id="nombre" name="nombre" type="text" class="pill" style="width: 280px;" value="Allison Gonzalez">
+            </div>
+            <div class="filter-group">
+                <label for="tipo">Tipo</label>
+                <select id="tipo" name="tipo" class="pill" style="width: 90px;">
+                    <option value="RH" selected>RH</option>
+                    <option value="Admin" selected>Admin</option>
+                </select>            
+            </div>
+            <div class="filter-group" style="margin-left: -35px; width: 140px;">
+                <label for="contra">Contraseña</label>
+                <input id="contra" name="contra" type="text" class="pill" value="1234">
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="confirmar_contra">Confirmar contraseña</label>
+                <input id="confirmar_contra" name="confirmar_contra" type="text" class="pill" style="width: 140px; "value="1234">
+            </div>
+            <div class="filter-group">
+                <button type="submit" class="btn-search" style="margin-top: 25px;">Agregar<i class="fi fi-sc-user-add"></i></button>
+            </div>
+        </form>
+    
+        <!-- Tabla de usuarios -->
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>id</th>
+                <th>ID de empleado</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Ejemplos de filas -->
+              <tr>
+                <td>1</td>
+                <td>1234</td>
+                <td>Ernesto Alonso</td>
+                <td>RH</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>5678</td>
+                <td>María Pérez</td>
+                <td>Admin</td>
+              </tr>
+              <!-- Si no hay datos:
+              <tr>
+                <td colspan="4" class="no-data">No se encontraron usuarios.</td>
+              </tr>
+              -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>© 2025 Consol Negocios SA</span>
+            <img src="src/img/logo.png" alt="Logo" class="footer-logo">
+        </div>
+    </footer>
+
+</body>
+</html>

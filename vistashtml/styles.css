@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
@@ -64,14 +67,16 @@ body {
 }
 
 .calendar {
-  margin: 0 auto;
+  flex: 1;
   border-collapse: collapse;
   width: 100%;
   max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .calendar thead {
-  background-color: #004aad;
+  background-color: #265288;
   color: white;
   font-size: 16px;
   border-radius: 10px;
@@ -101,14 +106,27 @@ body {
   cursor: pointer;
 }
 
+/* Footer */
 .footer {
-  background-color: #e6633c;
-  color: white;
+  background-color: #a9d6ff;
+  color: black;
   text-align: center;
   padding: 15px;
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: auto;
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  height: 30px;
 }
 
 

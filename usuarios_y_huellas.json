@@ -1072,28 +1072,28 @@
     {
         "id_checador": 1,
         "user_id": "1223",
-        "name": "Jesus",
+        "name": "PruebaJesus",
         "privilege": 14,
         "password": "",
-        "group_id": "",
+        "group_id": "0",
         "templates": [
             {
                 "finger_id": 0,
-                "template": "<Finger> [uid:  6, fid:0, size: 886 v:1 t:b'4a35535332310000...bc04134c6300c0c0']"
+                "template": "<Finger> [uid:1223, fid:0, size: 972 v:1 t:b'4a8f535332310000...590410c7a57a52cc']"
             }
         ]
     },
     {
         "id_checador": 1,
-        "user_id": "1224",
-        "name": "Allison",
+        "user_id": "1227",
+        "name": "Allison Gonzalez",
         "privilege": 14,
         "password": "",
         "group_id": "",
         "templates": [
             {
                 "finger_id": 0,
-                "template": "<Finger> [uid:1224, fid:0, size: 692 v:1 t:b'4bf7535332310000...c18705100463ffe1']"
+                "template": "<Finger> [uid:1227, fid:0, size: 612 v:1 t:b'4b27535332310000...07108b62c5494c64']"
             }
         ]
     },

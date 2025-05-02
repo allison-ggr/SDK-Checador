@@ -1,0 +1,223 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #a52c43;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .menu-icon, .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .footer {
+    background-color: #a9d6ff;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    height: 30px;
+  }
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px; /* oculto inicialmente */
+    width: 250px;
+    height: 100%;
+    background-color: #265288;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .btn-cerrar {
+    margin: 270px 20px 0 20px;
+    border-radius: 100px;
+    padding: 10px 35px;
+    font-size: 1.1em;
+    border: none;
+    color: white;
+    background-color: #a82d46;
+    cursor: pointer;
+  }
+  
+  .btn-cerrar:hover {
+    background-color: #e6633c;
+    transform: scale(1.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Filter */
+  .filter-container {
+    background-color: #D6EAFF; /* azul claro */
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    justify-content: center;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 8rem;
+  }
+  
+  .filter-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #1A3857;
+  }
+  
+  .pill {
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 999px;
+    background-color: #265288; /* azul oscuro */
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .pill:focus {
+    outline: 2px solid #6EA8FF;
+  }
+  
+  .btn-search {
+    align-self: flex-end;
+    padding: 0.5rem 2rem;
+    background-color: #265288;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-search:hover {
+    background-color: #12345e;
+  }
+  
+  /* Table */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 2rem;
+    border: #12345e solid 1px;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); azul claro */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+  }
+  
+  thead th {
+    background-color: #265288;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+  }
+  
+  tbody td {
+    padding: 0.75rem;
+    text-align: center;
+  }
+  
+  tbody tr + tr {
+    border-top: 1px solid #265288;
+  }
+
+.table-colaboradores th:nth-child(1),
+.table-colaboradores td:nth-child(1) {
+  width: 30%; 
+}
+
+.table-colaboradores th:nth-child(2),
+.table-colaboradores td:nth-child(2) {
+  width: 70%; 
+}
+
+  .no-data {
+    color: #666;
+    padding: 1.5rem;
+  }
