@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empleado - John Doe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eef1f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      margin: 20px 0;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+    }
+
+    .info p {
+      margin: 12px 0;
+      font-size: 17px;
+      color: #444;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .buttons button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .buttons button:hover {
+      background-color: #0056b3;
+    }
+
+    .delete {
+      background-color: #dc3545;
+    }
+
+    .delete:hover {
+      background-color: #b52d3a;
+    }
+
+    .cancel {
+      background-color: #6c757d;
+    }
+
+    .cancel:hover {
+      background-color: #495057;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+
+      .buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .buttons button {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1><i class="fas fa-user"></i> John Doe</h1>
+
+    <div class="info">
+      <p><strong>Número de empleado:</strong> 001</p>
+      <p><strong>Horas trabajadas:</strong> 80 hrs</p>
+    </div>
+
+    <div class="buttons">
+      <button><i class="fas fa-edit"></i> Modificar</button>
+      <button class="delete"><i class="fas fa-trash-alt"></i> Eliminar</button>
+      <button><i class="fas fa-save"></i> Guardar</button>
+      <button class="cancel"><i class="fas fa-times"></i> Cancelar</button>
+    </div>
+  </div>
+
+</body>
+</html>
