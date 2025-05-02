@@ -158,11 +158,17 @@ body {
   .pill:focus {
     outline: 2px solid #6EA8FF;
   }
+
+  input::placeholder {
+    color: #9fa0a1; /* Cambia este color al que prefieras */
+    font-style: italic; /* Opcional: estilo del texto */
+  }
   
   .btn-search {
     align-self: flex-end;
     padding: 0.5rem 2rem;
     background-color: #265288;
+    margin-top: 25px;
     color: #fff;
     border: none;
     border-radius: 999px;
@@ -172,7 +178,23 @@ body {
   }
   
   .btn-search:hover {
-    background-color: #12345e;
+    background-color:#0073ff;
+  }
+
+  .btn-accion {
+    align-self: flex-end;
+    padding: 0.5rem 1rem;
+    background-color: #265288;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-accion:hover {
+    background-color: #0073ff;
   }
   
   /* Table */

@@ -43,11 +43,14 @@
     <form class="filter-container" action="#" method="GET">
       <div class="filter-group">
         <label for="numero_empleado">Número de empleado</label>
-        <input id="numero_empleado" name="numero_empleado" type="text" class="pill" value="1234">
+        <input id="numero_empleado" name="numero_empleado" type="text" class="pill" placeholder="0000">
       </div>
       <div class="filter-group" style="flex:1; min-width: 16rem;">
         <label for="nombre">Nombre del colaborador</label>
-        <input id="nombre" name="nombre" type="text" class="pill" value="Allison Gonzalez">
+        <input id="nombre" name="nombre" type="text" class="pill" placeholder="Nombre Completo">
+      </div>
+      <div class="filter-group">
+        <button class="btn-search"><i class="fas fa-user-plus" style="margin-right: 5px;"></i> Agrega un colaborador</button>
       </div>
     </form>
 
@@ -58,6 +61,8 @@
           <tr>
             <th>Número de empleado</th>
             <th>Nombre Completo</th>
+            <th>Sucursal</th>
+            <th>Tipo</th>
           </tr>
         </thead>
         <tbody>
@@ -65,10 +70,14 @@
           <tr>
             <td>1234</td>
             <td>Allison Gonzalez</td>
+            <td>Matriz</td>
+            <td>Administrador</td>
           </tr>
           <tr>
             <td>5678</td>
             <td>Carlos Martínez</td>
+            <td>El Salto</td>
+            <td>Usuario</td>
           </tr>
           <!-- Si no hay datos: -->
           <!--

@@ -19,9 +19,7 @@
         <button class="close-btn" id="close-sidebar"><i class="fas fa-times"></i></button>
         <ul>
           <li><a href="#"><i class="fi fi-sr-house-chimney"></i> Inicio</a></li>
-          <li><a href="#"><i class="fi fi-ss-employee-man-alt"></i> Colaboradores</a></li>
-          <li><a href="#"><i class="fi fi-sr-calendar-clock"></i> Catorcenas</a></li>
-          <li><a href="#"><i class="fi fi-sr-file-medical-alt"></i> Reportes</a></li>
+          <li><a href="#"><i class="fas fa-user-plus"></i> Agregar Usuarios</a></li>
           <button class="btn-cerrar"><i class="fi fi-br-exit" style="margin: 2px;"></i> Cerrar Sesión</button>
         </ul>
       </div>
@@ -43,11 +41,11 @@
         <form class="filter-container" action="#" method="GET">
             <div class="filter-group">
                 <label for="numero_empleado">Id de empleado</label>
-                <input id="numero_empleado" name="numero_empleado" type="text" class="pill" style="width: 100px;" value="1234">
+                <input id="numero_empleado" name="numero_empleado" type="text" placeholder="0000" class="pill" style="width: 100px;">
             </div>
             <div class="filter-group">
                 <label for="nombre">Nombre del colaborador</label>
-                <input id="nombre" name="nombre" type="text" class="pill" style="width: 280px;" value="Allison Gonzalez">
+                <input id="nombre" name="nombre" type="text" placeholder="Nombre Completo" class="pill" style="width: 280px;">
             </div>
             <div class="filter-group">
                 <label for="tipo">Tipo</label>
@@ -58,15 +56,15 @@
             </div>
             <div class="filter-group" style="margin-left: -35px; width: 140px;">
                 <label for="contra">Contraseña</label>
-                <input id="contra" name="contra" type="text" class="pill" value="1234">
+                <input id="contra" name="contra" type="text" class="pill" placeholder="1234A/">
                 </select>
             </div>
             <div class="filter-group">
                 <label for="confirmar_contra">Confirmar contraseña</label>
-                <input id="confirmar_contra" name="confirmar_contra" type="text" class="pill" style="width: 140px; "value="1234">
+                <input id="confirmar_contra" name="confirmar_contra" type="text" class="pill" style="width: 140px; "placeholder="1234A/">
             </div>
             <div class="filter-group">
-                <button type="submit" class="btn-search" style="margin-top: 25px;">Agregar<i class="fi fi-sc-user-add"></i></button>
+                <button type="submit" class="btn-search"><i class="fas fa-user-plus" style="margin-right: 5px;"></i> Agregar</button>
             </div>
         </form>
     
@@ -77,24 +75,36 @@
               <tr>
                 <th>id</th>
                 <th>ID de empleado</th>
-                <th>Nombre</th>
+                <th style="width: 500px;">Nombre</th>
                 <th>Tipo</th>
+                <th style="width: 260px;">Acciones</th>
               </tr>
             </thead>
             <tbody>
               <!-- Ejemplos de filas -->
-              <tr>
-                <td>1</td>
-                <td>1234</td>
-                <td>Ernesto Alonso</td>
-                <td>RH</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>5678</td>
-                <td>María Pérez</td>
-                <td>Admin</td>
-              </tr>
+              <tbody>
+                <!-- Ejemplo de filas -->
+                <tr>
+                  <td>1</td>
+                  <td>1234</td>
+                  <td>Ernesto Alonso Gutierrez</td>
+                  <td>RH</td>
+                  <td>
+                    <button class="btn-accion edit"><i class="fas fa-edit"></i> Editar</button>
+                    <button class="btn-accion delete"><i class="fas fa-trash"></i> Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>5678</td>
+                  <td>Karla Maria Jannet Carranza Guzman</td>
+                  <td>Admin</td>
+                  <td>
+                    <button class="btn-accion edit"><i class="fas fa-edit"></i> Editar</button>
+                    <button class="btn-accion delete"><i class="fas fa-trash"></i> Eliminar</button>
+                  </td>
+                </tr>
+              </tbody>
               <!-- Si no hay datos:
               <tr>
                 <td colspan="4" class="no-data">No se encontraron usuarios.</td>
