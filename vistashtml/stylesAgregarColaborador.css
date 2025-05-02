@@ -1,0 +1,209 @@
+/* General */
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #a52c43;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.menu-icon, .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+/* Footer */
+.footer {
+    background-color: #a9d6ff;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+/* Layout */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px; /* oculto inicialmente */
+    width: 250px;
+    height: 100%;
+    background-color: #265288;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-cerrar {
+    margin: 270px 20px 0 20px;
+    border-radius: 100px;
+    padding: 10px 35px;
+    font-size: 1.1em;
+    border: none;
+    color: white;
+    background-color: #a82d46;
+    cursor: pointer;
+}
+
+.btn-cerrar:hover {
+    background-color: #e6633c;
+    transform: scale(1.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Formulario */
+.filter-container {
+    background-color: #D6EAFF; /* azul claro */
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center; /* Alinea todos los elementos del formulario al centro */
+    width: 100%;
+    max-width: 600px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el formulario en la pantalla */
+}
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 8rem;
+    width: 90%;
+}
+
+.filter-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #1A3857;
+}
+
+.pill {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 999px;
+    background-color: #265288; /* azul oscuro */
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%; /* Hace que los inputs se ajusten al ancho del contenedor */
+}
+
+.pill:focus {
+    outline: 2px solid #6EA8FF;
+}
+
+
+/* Botón Agregar */
+.btn-search {
+    align-self: center; /* Alinea el botón al centro */
+    padding: 0.5rem 2rem;
+    background-color: #265288;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 20px; /* Espacio encima del botón */
+    width: 50%; /* Hace que el botón se ajuste al ancho del contenedor */
+}
+
+.btn-search:hover {
+    background-color: #12345e;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .filter-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .filter-group {
+        min-width: 90%;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar nuevos colaboradores</title>
+    <link rel="stylesheet" href="stylesAgregarColaborador.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="sidebar.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+    <div class="layout-container">
+        <div class="sidebar" id="sidebar">
+            <button class="close-btn" id="close-sidebar"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="#"><i class="fi fi-sr-house-chimney"></i> Inicio</a></li>
+                <li><a href="#"><i class="fi fi-ss-employee-man-alt"></i> Colaboradores</a></li>
+                <li><a href="#"><i class="fi fi-sr-calendar-clock"></i> Catorcenas</a></li>
+                <li><a href="#"><i class="fi fi-sr-file-medical-alt"></i> Reportes</a></li>
+                <button class="btn-cerrar"><i class="fi fi-br-exit" style="margin: 2px;"></i> Cerrar Sesión</button>
+            </ul>
+        </div>
+
+        <header class="header">
+            <div class="menu-icon">
+                <i class="fas fa-bars icon"></i>
+            </div>
+            <div class="user-info">
+                <i class="fas fa-user icon"></i>
+                <span>Ernesto Alonso</span>
+            </div>
+        </header>
+
+        <!-- Contenido -->
+        <div class="container">
+            <h1>Agregar un nuevo colaborador</h1>
+
+            <!-- Formulario -->
+            <form class="filter-container" action="#" method="GET">
+                <div class="filter-group">
+                    <label for="numero_empleado">Número de empleado</label>
+                    <input id="numero_empleado" name="numero_empleado" type="text" class="pill" value=""  required placeholder="Número de empleado">
+                </div>
+
+                <div class="filter-group">
+                    <label for="nombres">Nombres del colaborador</label>
+                    <input id="nombres" name="nombres" type="text" class="pill"  required placeholder="Nombres del colaborador">
+                </div>
+
+                <div class="filter-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input id="apellidos" name="apellidos" type="text" class="pill"  required placeholder="Apellidos del colaborador">
+                </div>
+
+                <div class="filter-group">
+                    <label for="sucursal">Sucursal</label>
+                    <select id="tipo" name="tipo" class="pill" required >
+                      <option value="Matriz">Matriz</option>
+                      <option value="Zapopan">Zapopan</option>
+                      <option value="Tala" selected>Tala</option>
+                  </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="tipo">Tipo</label>
+                    <select id="tipo" name="tipo" class="pill" required>
+                        <option value="RH">RH</option>
+                        <option value="Admin">Admin</option>
+                        <option value="Usuario" selected>Usuario</option>
+                    </select>            
+                </div>
+
+                <div class="filter-group">
+                    <button type="submit" class="btn-search">Agregar <i class="fi fi-sc-user-add"></i></button>
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <span>© 2025 Consol Negocios SA</span>
+                <img src="src/img/logo.png" alt="Logo" class="footer-logo">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
