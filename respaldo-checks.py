@@ -92,13 +92,8 @@ try:
     with open("registros_guardados.json", "w", encoding="utf-8") as f:
         json.dump(registros_guardados, f, indent=4, ensure_ascii=False)
 
-    # Mostrar resumen por consola
-    resultado = {
-        "insertados": len(registros_guardados),
-        "omitidos": omitidos,
-        "errores": errores
-    }
-    print(json.dumps(resultado, indent=4, ensure_ascii=False))
+   
+    print(json.dumps({"status": "success"}, indent=4, ensure_ascii=False))
 
 finally:
     if conn:
