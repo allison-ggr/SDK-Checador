@@ -1,16 +1,23 @@
 # -*- coding: utf-8 -*-
 import sys
 import json
+import argparse
+
 sys.path.append("zk")
 
 from zk import ZK, const
 
+# Argumentos
+parser = argparse.ArgumentParser()
+parser.add_argument("ip", type=str, help="IP del checador")
+args = parser.parse_args()
+
+# Conexión al checador
+zk = ZK(args.ip, port=4370, timeout=10, password=0, force_udp=False, ommit_ping=False)
 conn = None
-zk = ZK('192.168.1.200', port=4370, timeout=10, password=0, force_udp=False, ommit_ping=False)
+
 try:
-    print('Connecting to device ...')
     conn = zk.connect()
-    print('Disabling device ...')
     conn.disable_device()
 
     users = conn.get_users()
@@ -25,11 +32,11 @@ try:
         }
         user_list.append(user_data)
 
-    # Imprimir como JSON formateado
     print(json.dumps(user_list, indent=4, ensure_ascii=False))
 
 except Exception as e:
-    print("Process terminated: {}".format(e))
+    print("Proceso terminado con error: {}".format(e))
+
 finally:
     if conn:
         conn.disconnect()
