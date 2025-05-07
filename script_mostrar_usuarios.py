@@ -13,7 +13,7 @@ parser.add_argument("ip", type=str, help="IP del checador")
 args = parser.parse_args()
 
 # Conexión al checador
-zk = ZK(args.ip, port=4370, timeout=10, password=0, force_udp=False, ommit_ping=False)
+zk = ZK(args.ip, port=4370, timeout=5, password=0, force_udp=False, ommit_ping=False)
 conn = None
 
 try:
@@ -35,7 +35,7 @@ try:
     print(json.dumps(user_list, indent=4, ensure_ascii=False))
 
 except Exception as e:
-    print("Proceso terminado con error: {}".format(e))
+    print(json.dumps([], ensure_ascii=False))  # Devuelve lista vacía como JSON
 
 finally:
     if conn:
