@@ -19,7 +19,7 @@ conexion = pymysql.connect(
 cursor = conexion.cursor()
 
 # Conexión al checador
-zk = ZK(args.ip, port=4370, timeout=5, password=0, force_udp=False, ommit_ping=False)
+zk = ZK(args.ip, port=4370, timeout=10, password=0, force_udp=False, ommit_ping=False)
 conn = None
 
 try:
