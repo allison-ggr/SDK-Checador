@@ -15,9 +15,9 @@ cursor = db.cursor()
 # UID del usuario que quieres restaurar
 
 
-uid_usuarioAnterior = 8
-uid_usuarioNUevo = 105
-nombre_usuarioNuevo = 'TERESA DE JESUS ROMERO' # Nombre del nuevo usuario (puedes cambiarlo si quieres)
+uid_usuarioAnterior = ""
+uid_usuarioNUevo = ""
+nombre_usuarioNuevo = '' # Nombre del nuevo usuario (puedes cambiarlo si quieres)
 privilegio = const.USER_DEFAULT  # Privilegio de usuario normal
 
 
@@ -56,8 +56,8 @@ if resultados:
     # Guardar todas las huellas del usuario
     conn.save_user_template(uid_usuarioNUevo, fingers)
     print("Huellas restauradas exitosamente.")
-    conn.delete_user(uid_usuarioAnterior)  # Eliminar el usuario anterior del reloj
-    print(f"Usuario {uid_usuarioAnterior} eliminado.")
+   # conn.delete_user(uid_usuarioAnterior)  # Eliminar el usuario anterior del reloj
+    #print(f"Usuario {uid_usuarioAnterior} eliminado.")
     # Finalizar conexión
     conn.enable_device()
     conn.disconnect()

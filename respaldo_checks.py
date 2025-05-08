@@ -22,7 +22,7 @@ else:
     sys.exit(1)
 
 # Conexión al checador
-zk = ZK(args.ip, port=4370, timeout=10, password=0, force_udp=False, ommit_ping=False)
+zk = ZK(args.ip, port=4370, timeout=30, password=0, force_udp=False, ommit_ping=False)
 
 # Conexión a la base de datos
 db = pymysql.connect(
@@ -35,8 +35,7 @@ cursor = db.cursor()
 
 # Listas para reporte y guardado
 registros_guardados = []
-omitidos = []
-errores = []
+
 
 try:
     conn = zk.connect()
@@ -50,11 +49,7 @@ try:
         # Verificar si el usuario existe
         cursor.execute("SELECT COUNT(*) FROM empleados WHERE id_usuario = %s", (user_id,))
         if cursor.fetchone()[0] == 0:
-            omitidos.append({
-                "usuario": user_id,
-                "fecha": fecha,
-                "motivo": "Usuario no existe"
-            })
+            
             continue
 
         # Verificar si el registro ya existe
@@ -63,11 +58,7 @@ try:
             WHERE fecha = %s AND id_usuario = %s AND id_checador = %s
         """, (fecha, user_id, checador_id))
         if cursor.fetchone()[0] > 0:
-            omitidos.append({
-                "usuario": user_id,
-                "fecha": fecha,
-                "motivo": "Registro duplicado"
-            })
+           
             continue
 
         # Insertar nuevo registro
@@ -81,16 +72,10 @@ try:
                 "checador_id": checador_id
             })
         except Exception as e:
-            errores.append({
-                "usuario": user_id,
-                "fecha": fecha,
-                "error": str(e)
-            })
+            print(json.dumps({"status": "wrong"}, indent=4, ensure_ascii=False))
             db.rollback()
 
-    # Guardar registros en archivo JSON local
-    with open("registros_guardados.json", "w", encoding="utf-8") as f:
-        json.dump(registros_guardados, f, indent=4, ensure_ascii=False)
+   
 
    
     print(json.dumps({"status": "success"}, indent=4, ensure_ascii=False))
