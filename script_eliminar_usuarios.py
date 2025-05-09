@@ -23,7 +23,7 @@ zk = ZK(args.ip, port=4370, timeout=10, password=0, force_udp=False, ommit_ping=
 conn = None
 
 try:
-    response = {}
+    response = []
     conn = zk.connect()
     conn.disable_device()
 
@@ -35,10 +35,7 @@ try:
 
     # Eliminar usuario del checador
     conn.delete_user(user_id=args.id)
-    response["dispositivo"] = {
-        "status": "eliminado",
-        "id": args.id
-    }
+   
 
     # Verificar si el usuario existe en la base de datos
     cursor.execute("SELECT COUNT(*) FROM empleados WHERE id_usuario = %s", (args.id,))
@@ -55,10 +52,7 @@ try:
     resultado = cursor.fetchone()
     if resultado[0] == 0:
         conexion.commit()
-        response["base_datos"] = {
-            "status": "eliminado",
-            "id": args.id
-        }
+       
     else:
         conexion.rollback()
         raise Exception("Error: el usuario aún existe en la base de datos. Cambios revertidos.")
@@ -66,11 +60,11 @@ try:
     conn.enable_device()
 
     # Devolver respuesta en formato JSON
-    print(json.dumps(response, indent=4))
+    print(json.dumps([{"status": "success"}], indent=4, ensure_ascii=False))
 
 except Exception:
     # Devolver JSON vacío en caso de error
-    print(json.dumps({}))
+    print(json.dumps([], ensure_ascii=False))
 finally:
     if conn:
         conn.disconnect()
