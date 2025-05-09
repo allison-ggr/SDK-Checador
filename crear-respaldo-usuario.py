@@ -1,10 +1,17 @@
 import pymysql
 import sys
+import argparse
+import json
 sys.path.append("zk")
 from zk import ZK, const
 
+# Configuración de argumentos
+parser = argparse.ArgumentParser()
+parser.add_argument("ip", type=str, help="Dirección IP del dispositivo checador")
+args = parser.parse_args()
+
 # Configuración del reloj checador
-checador = ZK('192.168.1.200', port=4370, timeout=20, password=0, force_udp=False, ommit_ping=False)
+checador = ZK(args.ip, port=4370, timeout=20, password=0, force_udp=False, ommit_ping=False)
 
 # Configuración de la base de datos MySQL
 DB_CONFIG = {
@@ -80,8 +87,7 @@ def crear_respaldo():
         # Conectar al reloj checador
         conn = checador.connect()
         if not conn:
-            print("No se pudo conectar al reloj checador.")
-            return
+            return {"error": "No se pudo conectar al reloj checador"}
 
         # Deshabilitar el dispositivo
         conn.disable_device()
@@ -89,8 +95,7 @@ def crear_respaldo():
         # Obtener información de los usuarios
         usuarios = conn.get_users()
         if not usuarios:
-            print("No se encontraron usuarios en el reloj checador.")
-            return
+            return {"error": "No se encontraron usuarios en el reloj checador"}
 
         respaldo = []
         for user in usuarios:
@@ -123,24 +128,27 @@ def crear_respaldo():
                             "finger_id": finger_id,
                             "template": template_data
                         })
-                        print(f"Huella {finger_id} respaldada para el usuario {user.user_id}.")
                 except Exception as e:
-                    print(f"Error al obtener huella {finger_id} del usuario {user.user_id}: {e}")
+                    sys.stderr.write(f"Error al obtener huella {finger_id} del usuario {user.user_id}: {e}\n")
 
             respaldo.append(user_data)
 
         # Guardar en base de datos
         guardar_en_base_datos(respaldo)
 
-        print("Respaldo creado exitosamente en la base de datos.")
-
         # Habilitar dispositivo nuevamente
         conn.enable_device()
         conn.disconnect()
 
+        return {"status": "Respaldo creado exitosamente"}
+
     except Exception as e:
-        print(f"Error al crear el respaldo: {e}")
+        return {"error": str(e)}
 
 if __name__ == "__main__":
-    inicializar_base_datos()
-    crear_respaldo()
+    try:
+        inicializar_base_datos()
+        resultado = crear_respaldo()
+        print(json.dumps(resultado))  # Imprimir solo el JSON como salida
+    except Exception as e:
+        print(json.dumps({"error": str(e)}))
