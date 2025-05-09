@@ -204,7 +204,7 @@ body {
     border: #12345e solid 1px;
     border-radius: 1.5rem;
     background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); azul claro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   table {
@@ -228,16 +228,6 @@ body {
   tbody tr + tr {
     border-top: 1px solid #265288;
   }
-
-.table-colaboradores th:nth-child(1),
-.table-colaboradores td:nth-child(1) {
-  width: 30%; 
-}
-
-.table-colaboradores th:nth-child(2),
-.table-colaboradores td:nth-child(2) {
-  width: 70%; 
-}
 
   .no-data {
     color: #666;
